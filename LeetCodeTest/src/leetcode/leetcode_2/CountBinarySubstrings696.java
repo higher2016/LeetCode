@@ -1,6 +1,5 @@
 package leetcode.leetcode_2;
 
-
 /**
  * 
  * Give a string s, count the number of non-empty (contiguous) substrings that
@@ -23,19 +22,9 @@ package leetcode.leetcode_2;
  * consecutive 1's and 0's. <br>
  * 
  * Note: s.length will be between 1 and 50,000. s will only consist of "0" or
- * "1" characters.
- *
+ * "1" characters. ´ð°¸¼°½âÊÍ£ºhttps://leetcode.com/articles/count-binary-substrings/
  */
 public class CountBinarySubstrings696 {
-	public static void main(String[] args) {
-		// int s = 5/2;
-		// System.out.println(s);
-		int res = countBinarySubstrings("00110011");
-		System.out.println(res);
-		// for(int j = 0 + 1; j < 6; j += 2){
-		// System.out.println(j);
-		// }
-	}
 
 	public static int countBinarySubstrings2(String s) {
 		int res = 0;
